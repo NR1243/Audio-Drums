@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.keys{
+    width:100%;
+    height:100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background: url(./images/pexels-pixabay-237464.jpg) center/cover no-repeat fixed;
+}
+.key{
+    border: 5px solid red;
+    height: 120px;
+    width: 130px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 32px;
+    font-weight: 800;
+    color: white;
+    border-radius: 10px;
+    transition: 0.15s;
+}
+span{
+    color: yellow;
+}
+.playing {
+    transform: scale(1.1);
+    border-color: #ffc600;
+    box-shadow: 0 0 1rem #ffc600;
+  }
